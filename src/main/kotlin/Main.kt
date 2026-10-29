@@ -52,9 +52,4 @@
     player.markShot(4, 4, false)
     printBothFields(player, enemy)
 
-    // 5. Закомментированные строки, которые не должны компилироваться
-    // player.shots = 100        // Ошибка: val не изменяемое
-    // player.hits = -5          // Ошибка: val не изменяемое
-    // player.field()[3][2] = '#' // Ошибка: val не изменяемое (ссылка на массив)
-    // player.name = "Другой"    // Ошибка: val не изменяемое
 }
